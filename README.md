@@ -91,5 +91,5 @@ What We're Looking For
 -Understanding of core engineering principles
 -Ability to simulate complex interactions with limited information
 
-## Things to added
+## Things to add
 - Query History
