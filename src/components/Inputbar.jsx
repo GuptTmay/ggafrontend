@@ -50,7 +50,8 @@ const Inputbar = () => {
     const fetchSuggestions = async () => {
       setIsLoading(true)
       try {
-        axios.get('http://localhost:3000/generate', {
+        const apiUrl = import.meta.env.VITE_BACKEND_URL;
+        axios.get(apiUrl + 'generate', {
           params: {
             q: encodeURIComponent(prompt)
           }
